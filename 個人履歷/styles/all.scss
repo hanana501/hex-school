@@ -135,7 +135,8 @@ table {
   // outline: 1px solid #000;
 }
 img {
-  display: block;
+  // display: block;
+  vertical-align: middle;
 }
 body {
   font-family: Castoro, sans-serif;
@@ -155,6 +156,7 @@ body {
   letter-spacing: 0.12em;
 }
 .pic {
+  display: block;
   margin: 0 auto;
 }
 .txt-r {

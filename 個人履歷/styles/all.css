@@ -140,7 +140,7 @@ table {
 }
 
 img {
-  display: block;
+  vertical-align: middle;
 }
 
 body {
@@ -164,6 +164,7 @@ body {
 }
 
 .pic {
+  display: block;
   margin: 0 auto;
 }
 
