@@ -136,3 +136,50 @@ table {
 img {
   vertical-align: middle;
 }
+body {
+  background: #60656c;
+  color: #fff;
+  line-height: 1.5;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.mb-28 {
+  margin-bottom: 28px;
+}
+.week {
+  border: 2px dashed #f8e8d1;
+  padding: 10px;
+}
+.project {
+  a {
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+      background: #f8e8d1;
+      color: #60656c;
+    }
+  }
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.fz-32 {
+  font-size: 32px;
+}
