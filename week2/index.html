@@ -6,28 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robot" content="index,follow" />
     <meta name="author" content="Hana Lin" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/all.css" />
     <title>William</title>
   </head>
   <body>
     <header>
       <nav>
-        <ul class="container">
-          <li><a href="#">WILLIAM LEE</a></li>
-          <li><a href="#">BASED IN TAIWAN</a></li>
-          <li><a href="#">CURRENTLY FRONT END ENGINEER AT HEXSCHOOL</a></li>
-          <li><a href="#">CONTACT ME</a></li>
+        <ul class="container d-flex justify-content-sb mt-40">
+          <li>
+            <a href="#" class="menu-txt">WILLIAM LEE</a>
+          </li>
+          <li>
+            <a href="#" class="menu-txt">BASED IN TAIWAN</a>
+          </li>
+          <li>
+            <a href="#" class="menu-txt"
+              >CURRENTLY FRONT END <br />
+              ENGINEER AT HEXSCHOOL</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="menu-txt">CONTACT ME</a>
+          </li>
         </ul>
       </nav>
-      <div class="banner container">
-        <img src="./image/people.png" alt="William's pic" />
+      <div class="banner container d-flex my-72">
+        <img src="./image/people.png" alt="William's pic" class="mr-24" />
         <div class="title">
-          <p>Hi</p>
-          <p>I’m a front-end developer</p>
-          <h1>William</h1>
-          <a href="#contact">
-            <p>contact me<img src="./image/arrow_outward.png" alt="" /></p>
-          </a>
+          <p class="title-txt">Hi</p>
+          <p class="title-txt">I’m a front-end developer</p>
+          <h1 class="name">William</h1>
+          <div class="button">
+            <a href="#contact" class="contact-button"
+              >contact me<img
+                src="./image/arrow_outward.png"
+                alt="arrow"
+                class="ml-4"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </header>

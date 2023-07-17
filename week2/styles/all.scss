@@ -135,6 +135,70 @@ table {
   // outline: 1px solid #000;
 }
 img {
-  // display: block;
   vertical-align: middle;
+}
+body {
+  font-family: "Bruno Ace", cursive;
+  line-height: 1.5;
+  color: #000;
+  background: #000;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-sb {
+  justify-content: space-between;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.menu-txt {
+  font-size: 16px;
+  color: #d1d1d1;
+}
+.my-72 {
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+.mr-24 {
+  margin-right: 24px;
+}
+.title {
+  align-self: center;
+}
+.title-txt {
+  font-size: 64px;
+  color: #fff;
+}
+.name {
+  font-size: 128px;
+  color: #00ffa3;
+  text-align: right;
+}
+.button {
+  position: relative;
+}
+.contact-button {
+  position: absolute;
+  right: 0;
+  background: #fff;
+  padding: 12px 24px;
+  border-radius: 32px;
+  font-size: 16px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: #fff;
+    background: #00ffa3;
+  }
+}
+.ml-4 {
+  margin-left: 4px;
 }
