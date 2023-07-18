@@ -171,8 +171,15 @@ a {
   margin-top: 40px;
 }
 
-.menu-txt {
+.fz-s {
   font-size: 16px;
+}
+
+.black {
+  color: #000;
+}
+
+.light-gray {
   color: #d1d1d1;
 }
 
@@ -189,14 +196,23 @@ a {
   align-self: center;
 }
 
-.title-txt {
+.fz-xl {
   font-size: 64px;
+}
+
+.white {
   color: #fff;
 }
 
-.name {
+.fz-xxl {
   font-size: 128px;
+}
+
+.light-green {
   color: #00ffa3;
+}
+
+.name {
   text-align: right;
 }
 
@@ -204,14 +220,15 @@ a {
   position: relative;
 }
 
+.bg-white {
+  background: #fff;
+}
+
 .contact-button {
   position: absolute;
   right: 0;
-  background: #fff;
   padding: 12px 24px;
   border-radius: 32px;
-  font-size: 16px;
-  color: #000;
   transition: all 0.3s ease-in-out;
 }
 .contact-button:hover {
@@ -221,4 +238,125 @@ a {
 
 .ml-4 {
   margin-left: 4px;
+}
+
+.bg-pic {
+  background-image: url(/week2/image/background-img.png);
+}
+
+.py-160 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.fz-l {
+  font-size: 24px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.intro-txt {
+  width: 40.5%;
+}
+
+.flex-warp {
+  flex-wrap: wrap;
+}
+
+.about-card {
+  width: 49%;
+}
+
+.card-item {
+  width: 48%;
+  padding: 16px;
+  border: 1px solid #e3e3e3;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.fz-m {
+  font-size: 20px;
+}
+
+.about-content {
+  width: 40.5%;
+}
+
+.bg-linear {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.py-96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.align-items-c {
+  align-items: center;
+}
+
+.align-items-s {
+  align-items: start;
+}
+
+.link-item {
+  filter: drop-shadow(0 0 10px #000);
+}
+.link-item:hover {
+  filter: drop-shadow(0 0 10px #9094ff);
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.project-title {
+  width: 57%;
+  margin-left: auto;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.more-button {
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+.more-button:hover {
+  transform: scale(1.2);
+}
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.txt-center {
+  text-align: center;
 }/*# sourceMappingURL=all.css.map */
