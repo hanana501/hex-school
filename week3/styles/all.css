@@ -140,45 +140,55 @@ table {
 }
 
 img {
-  display: block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bg-themeColor {
+  background: #aa0601;
 }
 
 .container {
-  max-width: 640px;
+  max-width: 1296px;
   margin: 0 auto;
-}
-
-.mr-20 {
-  margin-right: 20px;
-}
-
-.mb-24 {
-  margin-bottom: 24px;
-}
-
-.py-48 {
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
-.ta-center {
-  text-align: center;
 }
 
 .d-flex {
   display: flex;
 }
 
-p {
-  font-size: 16px;
-  line-height: 1.5;
+.justify-content-sb {
+  justify-content: space-between;
 }
 
-.news-txt h2 {
-  font-size: 20px;
-  line-height: 1.2;
+.align-items-c {
+  align-items: center;
 }
 
-.align-items-start {
-  align-items: flex-start;
+.logo {
+  width: 80px;
+}
+
+.white {
+  color: #fff;
+}
+
+.py-25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.mr-64 {
+  margin-right: 64px;
 }/*# sourceMappingURL=all.css.map */
