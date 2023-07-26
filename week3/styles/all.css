@@ -191,4 +191,216 @@ a {
 
 .mr-64 {
   margin-right: 64px;
+}
+
+.bg-pic1 {
+  background: url("../image/home-header.png");
+  background-size: cover;
+}
+
+.py-296 {
+  padding-top: 296px;
+  padding-bottom: 296px;
+}
+
+.txt-dark-themeColor {
+  color: #650300;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.fs-1 {
+  font-size: 64px;
+}
+
+.fs-2 {
+  font-size: 48px;
+}
+
+.fs-3 {
+  font-size: 36px;
+}
+
+.fs-4 {
+  font-size: 24px;
+}
+
+.fs-5 {
+  font-size: 20px;
+}
+
+.fs-6 {
+  font-size: 16px;
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+.fs-bold {
+  font-weight: bold;
+}
+
+.buy-button {
+  padding: 6px 12px;
+  transition: all 0.3s ease-in-out;
+}
+.buy-button:hover {
+  color: #aa0601;
+  background: #fff;
+}
+
+.bg-support {
+  background: #fbf2f2;
+}
+
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.mx--12 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.intro-card-item {
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.px-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.intro_icon {
+  font-size: 100px;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.classic-pic {
+  width: 416px;
+}
+
+.txt-light-themeColor {
+  color: #aa0601;
+}
+
+.fs-ltalic {
+  font-style: italic;
+}
+
+.fs-bolder {
+  font-weight: bolder;
+}
+
+.bg-pic2 {
+  background: url("../image/index-bg.png");
+  background-size: cover;
+}
+
+.recommend-card-item {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1607843137);
+}
+
+.recommender {
+  border-radius: 4px 4px 0px 0px;
+}
+
+.date {
+  margin-top: auto;
+  color: #707070;
+}
+
+.fs-medium {
+  font-weight: 500;
+}
+
+.contact {
+  max-width: 636px;
+  margin: 0 auto;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.submit-button {
+  padding: 16px 176px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.submit-button:hover {
+  color: #aa0601;
+  background: #fff;
+}
+
+textarea {
+  height: 136px;
+}
+
+.footer {
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+
+.link-pic {
+  width: 48px;
+}
+
+.mr-32 {
+  margin-right: 32px;
+}
+
+.mr-48 {
+  margin-right: 48px;
+}
+
+.footer-contact-icon {
+  font-size: 48px;
+  margin-right: 16px;
+}
+
+.pb-32 {
+  padding-bottom: 32px;
+}
+
+.footer-body {
+  border-bottom: 1px solid #fff;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
 }/*# sourceMappingURL=all.css.map */
