@@ -24,24 +24,24 @@
     <!-- https://xd.adobe.com/view/5b20cbc4-5c64-4b67-814e-633b078a8cd4-0e73/grid -->
     <header>
       <div class="bg-themeColor">
-        <nav class="container d-flex justify-content-sb align-items-c">
+        <nav class="nav-bar container d-flex justify-content-sb align-items-c">
           <h1 class="logo">
             <a href="index.html"
               ><img src="./image/logo-white.png" alt="Logo"
             /></a>
           </h1>
-          <ul class="d-flex white">
-            <li class="py-25 mr-64"><a href="#">系列鏡框</a></li>
-            <li class="py-25 mr-64"><a href="#">門市據點</a></li>
-            <li class="py-25 mr-64"><a href="#">部落格</a></li>
-            <li class="py-25"><a href="#">常見問題</a></li>
+          <ul class="d-flex flex-wrap white">
+            <li class="nav-list fs-5 py-25 mr-64"><a href="#">系列鏡框</a></li>
+            <li class="nav-list fs-5 py-25 mr-64"><a href="#">門市據點</a></li>
+            <li class="nav-list fs-5 py-25 mr-64"><a href="#">部落格</a></li>
+            <li class="nav-list fs-5 py-25"><a href="#">常見問題</a></li>
           </ul>
         </nav>
       </div>
       <div class="bg-pic1">
         <div class="container py-296 txt-dark-themeColor txt-right">
           <p class="fs-3">Promise-Desert 2020 早春系列</p>
-          <h2 class="fs-1 fs-bold">看得清，才能看得遠</h2>
+          <h2 class="fs-1 fs-bold mb-4">看得清，才能看得遠</h2>
           <a href="#" class="buy-button bg-themeColor fs-5">立即購買</a>
         </div>
       </div>
@@ -111,7 +111,7 @@
           <h3 class="title fs-2 txt-dark-themeColor fs-bold txt-center mb-48">
             經典系列鏡框
           </h3>
-          <ul class="classic-card d-flex flex-wrap mx--12">
+          <ul class="classic-card d-flex mx--12">
             <li class="classic-card-item px-12">
               <img
                 src="./image/home-section3-1.png"
@@ -182,7 +182,7 @@
             顧客推薦
           </h3>
           <ul class="recommend-card d-flex mx--12">
-            <li class="recommend-card-item px-12 fs-6">
+            <li class="recommend-card-item d-flex flex-col mx-12 fs-6">
               <img
                 src="./image/home-section5-1.png"
                 alt="recommender's pic"
@@ -192,7 +192,7 @@
               <p class="txt mb-48">眼鏡品質優良，下次還會想來這邊購買！</p>
               <p class="date fs-7">2021/06/20</p>
             </li>
-            <li class="recommend-card-item px-12 fs-6">
+            <li class="recommend-card-item d-flex flex-col mx-12 fs-6">
               <img
                 src="./image/home-section5-2.png"
                 alt="recommender's pic"
@@ -205,7 +205,7 @@
               <p class="date fs-7">2021/04/18</p>
             </li>
 
-            <li class="recommend-card-item px-12 fs-6">
+            <li class="recommend-card-item d-flex flex-col mx-12 fs-6">
               <img
                 src="./image/home-section5-3.png"
                 alt="recommender's pic"
@@ -217,7 +217,7 @@
               </p>
               <p class="date fs-7">2020/12/25</p>
             </li>
-            <li class="recommend-card-item px-12 fs-6">
+            <li class="recommend-card-item d-flex flex-col mx-12 fs-6">
               <img
                 src="./image/home-section5-4.png"
                 alt="recommender's pic"
@@ -238,21 +238,21 @@
           <p class="mb-24 fs-5">
             我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
           </p>
-          <form action="#" class="d-flex flex-col fs-6">
+          <form action="#" class="fs-6">
             <label for="name" class="mb-8">姓名</label>
-            <input type="text" class="mb-16 bg-support" placeholder="陳小明" /
-            id="name">
+            <input type="text" class="mb-16 bg-support input-style"
+            placeholder="陳小明" / id="name">
             <label for="phone" class="mb-8">聯絡電話</label>
             <input
               type="tel"
-              class="mb-16 bg-support"
+              class="mb-16 bg-support input-style"
               placeholder="0912-345-678"
               id="phone"
             />
             <label for="email" class="mb-8">電子郵件</label>
             <input
               type="email"
-              class="mb-16 bg-support"
+              class="mb-16 bg-support input-style"
               placeholder="example@email.com"
               id="email"
             />
@@ -261,7 +261,7 @@
               name="opinion"
               placeholder="請輸入您的意見"
               id="opinion"
-              class="mb-16 bg-support"
+              class="opinion input-style mb-16 bg-support"
             ></textarea>
             <div class="agree">
               <input
@@ -273,11 +273,7 @@
               />我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
             </div>
 
-            <input
-              type="submit"
-              value="確認送出"
-              class="submit-button bg-themeColor white"
-            />
+            <a href="#" class="submit-btn bg-themeColor white">確認送出</a>
           </form>
         </div>
       </div>
